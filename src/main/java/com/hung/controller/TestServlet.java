@@ -45,6 +45,9 @@ public class TestServlet extends HttpServlet {
             out.println("<h1>Servlet TestServlet at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
+            
+            out.println("</html>");
+            out.println("</html>");
         } finally {
             out.close();
         }
