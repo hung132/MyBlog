@@ -18,8 +18,8 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author hung132
  */
-@WebServlet(name = "TestServlet", urlPatterns = {"/TestServlet"})
-public class TestServlet extends HttpServlet {
+@WebServlet(name = "FormController", urlPatterns = {"/FormController"})
+public class FormController extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -39,14 +39,11 @@ public class TestServlet extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet TestServlet</title>");            
+            out.println("<title>Servlet FormController</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet TestServlet at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet FormController at " + request.getContextPath() + "</h1>");
             out.println("</body>");
-            out.println("</html>");
-            out.println("OKOKOK");
-            out.println("</html>");
             out.println("</html>");
         } finally {
             out.close();
